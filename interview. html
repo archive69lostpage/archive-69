@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Interview</title>
+
+<style>
+
+body{
+
+background:black;
+
+color:white;
+
+font-family:Courier New;
+
+padding:40px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Interview Transcript</h1>
+
+<hr>
+
+<pre>
+
+Witness #01
+
+"I heard someone knocking...
+
+around 3:17 AM."
+
+</pre>
+
+<br>
+
+<a href="archive.html">
+
+⬅ Back
+
+</a>
+
+</body>
+
+</html>
