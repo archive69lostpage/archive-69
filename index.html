@@ -2,43 +2,155 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Missing Page Archive</title>
 
 <style>
+
 body{
-    background:black;
-    color:white;
+    margin:0;
+    background:#050505;
+    color:#d9d9d9;
     font-family:Georgia, serif;
     text-align:center;
-    margin-top:100px;
+}
+
+.container{
+
+    margin-top:80px;
+
 }
 
 h1{
-    color:red;
+
+    color:#b30000;
+    letter-spacing:5px;
+
+}
+
+.box{
+
+    width:80%;
+    max-width:700px;
+
+    margin:auto;
+
+    border:1px solid #555;
+
+    padding:30px;
+
+    background:#111;
+
+}
+
+.warning{
+
+    color:#ff3b3b;
+
+    font-size:20px;
+
 }
 
 button{
-    padding:15px 30px;
-    font-size:18px;
+
+    margin-top:25px;
+
+    background:#880000;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
     cursor:pointer;
+
+    font-size:18px;
+
 }
+
+button:hover{
+
+    background:#c40000;
+
+}
+
+.small{
+
+    color:gray;
+
+    font-size:14px;
+
+    margin-top:30px;
+
+}
+
 </style>
 
 </head>
 
 <body>
 
+<div class="container">
+
+<div class="box">
+
 <h1>THE MISSING PAGE ARCHIVE</h1>
 
-<p>Recovered Manuscript: 68 / 69 Pages</p>
+<hr>
 
-<p>⚠ WARNING ⚠</p>
+<p>Recovered Files</p>
 
-<p>The following files were recovered after the author's death.</p>
+<h2>68 / 69</h2>
 
-<button onclick="window.location.href='archive.html'">
+<p class="warning">
+
+⚠ WARNING ⚠
+
+</p>
+
+<p>
+
+This archive was recovered from the personal computer of the deceased author.
+
+</p>
+
+<p>
+
+Last Login
+
+<br>
+
+03:17 AM
+
+</p>
+
+<p>
+
+Author Status
+
+<br>
+
+DECEASED
+
+</p>
+
+<button onclick="location.href='archive.html'">
+
 ENTER ARCHIVE
+
 </button>
 
+<p class="small">
+
+Recovered by Unknown Source
+
+</p>
+
+</div>
+
+</div>
+
 </body>
+
 </html>
